@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Header from "@/components/components/header";
 import Footer from "@/components/components/footer";
 import Globe from "@/components/components/globe";
+import GlobeOptimizer from "@/components/components/globe-optimizer";
 
 import {
   Gauge,
@@ -51,7 +52,9 @@ export default function Home() {
 
       <main className="relative pt-32 pb-16   container mx-auto px-4 z-10">
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none ">
+          <GlobeOptimizer>
             <Globe />
+          </GlobeOptimizer>
         </div>
         
         {/* ✅ I've removed the wrapping motion.div so its children can render without a container delay */}
@@ -138,7 +141,7 @@ export default function Home() {
               className="space-y-4 flex flex-col items-center justify-center"
             >
               <motion.button
-                className="group relative flex border-[2px] border-[#7D7D7D] overflow-hidden rounded-full bg-gradient-to-b from-[rgb(121,121,121)] to-[#414040] px-8 py-2 text-white backdrop-blur-sm transition-colors hover:bg-[rgba(255,255,255,0.2)]"
+                className="group relative flex border-[2px] border-[#7D7D7D] overflow-hidden rounded-full bg-gradient-to-b from-[rgb(121,121,121)] to-[#414040] px-5 py-2 text-white backdrop-blur-sm transition-colors hover:bg-[rgba(255,255,255,0.2)]"
                 onMouseMove={handleMouseMove}
                 onHoverStart={() => setIsHovered2(true)}
                 onHoverEnd={() => setIsHovered2(false)}
