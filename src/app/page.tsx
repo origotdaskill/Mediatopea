@@ -79,7 +79,7 @@ export default function Home() {
               />
 
               <WandSparkles className="w-4 h-4 relative z-10 " />
-              <p className="relative z-10 bp1:text-[9.5px]">Arrêtez de Perdre des Leads. Transformez-les en Rendez-vous</p>
+              <p className="relative z-10 bp3:text-[8px]">Arrêtez de Perdre des Leads. Transformez-les en Rendez-vous</p>
             </span>
           </motion.div>
 
@@ -172,12 +172,12 @@ export default function Home() {
 
   
 
-      <div className="w-full mt-8">
+      <div className="w-full mt-8 ">
         <LogoMarquee />
       </div>
       <div className="min-h-screen w-full h-full flex flex-col z-0 items-center relative bg-gradient-to-b from-[#000000] to-[#000000]">
        
-        <div className="flex mt-6 bp4:mt-[-60px] flex-col bg-transparent justify-center items-center w-full relative">
+        <div className="flex mt-9 bp4:mt-[-60px] flex-col bg-transparent justify-center items-center w-full relative">
           {/* Gradient Circle Background */}
           <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-gradient-radial from-[#4D4D4D] to-transparent opacity-40 blur-3xl"></div>
 
@@ -226,12 +226,12 @@ export default function Home() {
 
           <BentoGrid />
         </div>
-        <div className="flex bp6:-mt-48 -mt-24 flex-col bg-transparent bg-gradient-to-b to-[#000000] from-[#000000] justify-center items-center w-full relative">
+        <div className="flex flex-col bg-transparent bg-gradient-to-b to-[#000000] from-[#000000] justify-center items-center w-full relative">
           {/* Gradient Circle Background */}
           <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-gradient-radial from-[#4D4D4D] to-transparent opacity-40 blur-3xl"></div>
 
           {/* Button */}
-          <div className="mt-6 flex justify-center text-center z-10">
+          <div className="mt-[10px] bp1:mt-[-225px]  flex justify-center text-center z-10">
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
