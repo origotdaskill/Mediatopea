@@ -78,7 +78,7 @@ const RadarTargetingCard = () => {
             Qualification Automatique 24/7
           </h3>
           <p className="text-sm text-muted-foreground">
-            Notre IA contacte et qualifie chaque nouveau prospect via WhatsApp, en posant les bonnes questions (budget, projet, etc.).
+            Réponse en Moins de 60 Secondes. Notre assistant IA engage chaque lead instantanément, pose les questions de qualification (budget, motivation, urgence) et identifie les clients 'Hot' avant que vos concurrents n'aient eu le temps d'ouvrir leurs emails.
           </p>
         </div>
       </div>

@@ -40,7 +40,7 @@ export default function BentoGrid() {
                 </div>
                 <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-background/80 to-transparent">
                   <h3 className="text-[16px] text-foreground">Centralisation Instantanée des Leads</h3>
-                  <p className="text-muted-foreground text-sm">Connectez Mubawab, Avito, Instagram et votre site web. Tous vos leads arrivent dans une seule interface claire.</p>
+                  <p className="text-muted-foreground text-sm">Fini le chaos. Mubawab, Avito, Instagram, WhatsApp, votre site web - 100% de vos leads sont unifiés dans un seul centre de commande, accessible partout, à tout moment.</p>
                 </div>
               </div>
             </Card>
@@ -62,8 +62,8 @@ export default function BentoGrid() {
                   </div>
                 </div>
                 <div className="mt-4 space-y-2">
-                  <h3 className="text-[16px] text-foreground">Une Expérience Sans Stress</h3>
-                  <p className="text-sm text-muted-foreground">Vos agents reçoivent des notifications uniquement pour les acheteurs sérieux, prêts à visiter.</p>
+                  <h3 className="text-[16px] text-foreground">Rendez Vos Agents Plus Productifs</h3>
+                  <p className="text-sm text-muted-foreground">Libérez vos meilleurs agents des tâches répétitives et frustrantes. Ils n'interviennent que lorsque le lead est qualifié et chaud, prêts à organiser une visite ou à conclure l'affaire.</p>
                 </div>
               </CardContent>
             </Card>
@@ -87,7 +87,7 @@ export default function BentoGrid() {
                 </div>
                 <div className="mt-4 space-y-2">
                   <h3 className="text-[16px] text-foreground">Reporting et ROI Amélioré</h3>
-                  <p className="text-sm text-muted-foreground">Suivez en temps réel la performance de chaque source de leads. Prenez des décisions basées sur la data.</p>
+                  <p className="text-sm text-muted-foreground">Prenez des Décisions Rentables. Pour la première fois, sachez exactement quels canaux marketing vous apportent des rendez-vous concrets, pas seulement des clics. Optimisez votre budget publicitaire pour un retour sur investissement maximal.</p>
                 </div>
               </CardContent>
             </Card>
@@ -95,7 +95,7 @@ export default function BentoGrid() {
         </div>
 
         {/* Default Grid for Larger Screens */}
-        <div className="bp1:hidden grid grid-cols-3 gap-6 h-[800px] place-items-center">
+        <div className="bp1:hidden grid grid-cols-3 gap-6 h-[950px] place-items-center">
           {/* Left Card */}
           <Card className="h-[70%] w-[350px] bg-card overflow-hidden relative group">
             <div className="relative h-full bg-card rounded-xl overflow-hidden">
@@ -120,7 +120,7 @@ export default function BentoGrid() {
               </div>
               <div className="absolute bottom-0 w-full p-6 bg-gradient-to-t from-background/80 to-transparent">
                 <h3 className="text-[16px] text-foreground">Centralisation Instantanée des Leads</h3>
-                <p className="text-muted-foreground text-sm">Connectez Mubawab, Avito, Instagram et votre site web. Tous vos leads arrivent dans une seule interface claire.</p>
+                <p className="text-muted-foreground text-sm">Fini le chaos. Mubawab, Avito, Instagram, WhatsApp, votre site web - 100% de vos leads sont unifiés dans un seul centre de commande, accessible partout, à tout moment.</p>
               </div>
             </div>
           </Card>
@@ -139,8 +139,8 @@ export default function BentoGrid() {
                   </div>
                 </div>
                 <div className="mt-4 space-y-2">
-                  <h3 className="text-[16px] text-foreground">Une Expérience Sans Stress</h3>
-                  <p className="text-sm text-muted-foreground">Vos agents reçoivent des notifications uniquement pour les acheteurs sérieux, prêts à visiter.</p>
+                  <h3 className="text-[16px] text-foreground">Rendez Vos Agents Plus Productifs</h3>
+                  <p className="text-sm text-muted-foreground">Libérez vos meilleurs agents des tâches répétitives et frustrantes. Ils n'interviennent que lorsque le lead est qualifié et chaud, prêts à organiser une visite ou à conclure l'affaire.</p>
                 </div>
               </CardContent>
             </Card>
@@ -163,7 +163,7 @@ export default function BentoGrid() {
                 </div>
                 <div className="mt-4 space-y-2">
                   <h3 className="text-[16px] text-foreground">Reporting et ROI Amélioré</h3>
-                  <p className="text-sm text-muted-foreground">Suivez en temps réel la performance de chaque source de leads. Prenez des décisions basées sur la data.</p>
+                  <p className="text-sm text-muted-foreground">Prenez des Décisions Rentables. Pour la première fois, sachez exactement quels canaux marketing vous apportent des rendez-vous concrets, pas seulement des clics. Optimisez votre budget publicitaire pour un retour sur investissement maximal.</p>
                 </div>
               </CardContent>
             </Card>

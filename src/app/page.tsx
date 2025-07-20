@@ -78,8 +78,8 @@ export default function Home() {
                 }}
               />
 
-              <WandSparkles className="w-4 h-4 relative z-10" />
-              <p className="relative z-10">Ne Perdez Plus Jamais un Lead</p>
+              <WandSparkles className="w-4 h-4 relative z-10 " />
+              <p className="relative z-10 bp1:text-[9.5px]">Arrêtez de Perdre des Leads. Transformez-les en Rendez-vous</p>
             </span>
           </motion.div>
 
@@ -122,14 +122,12 @@ export default function Home() {
             animate={{ opacity: 1 }}
             // ✅ Significantly reduced the delay from 0.6s to 0.2s
             transition={{ delay: 0.2 }}
-            className="max-w-2xl mx-auto text-[15px] text-white z-30 "
+            className="max-w-4xl mx-auto text-[15px] text-white z-30 "
           >
-            Notre système intelligent qualifie automatiquement vos leads de
-            Mubawab, Avito et Instagram 24/7. Vos agents se concentrent sur ce
-            qui compte vraiment : les signatures.
+            Notre système d'IA centralise 100% de vos leads de Mubawab, Avito, Instagram et WhatsApp, et y répond instantanément 24/7. Vos agents ne parlent qu'aux clients déjà qualifiés.
           </motion.p>
           <Link
-            href="https://book.mediatopea.com/mediatopea/estimation"
+            href="https://book.mediatopea.com/mediatopea/demo"
             passHref
             legacyBehavior
           >
@@ -146,8 +144,8 @@ export default function Home() {
                 onHoverStart={() => setIsHovered2(true)}
                 onHoverEnd={() => setIsHovered2(false)}
               >
-                <Link href="https://book.mediatopea.com/mediatopea/estimation" passHref legacyBehavior>
-                  <span className="relative z-10">Obtenez Votre Estimation Gratuite</span>
+                <Link href="https://book.mediatopea.com/mediatopea/demo" passHref legacyBehavior>
+                  <span className="relative z-10">Demander une Démo</span>
                 </Link>
 
                 {isHovered2 && (
@@ -178,23 +176,8 @@ export default function Home() {
         <LogoMarquee />
       </div>
       <div className="min-h-screen w-full h-full flex flex-col z-0 items-center relative bg-gradient-to-b from-[#000000] to-[#000000]">
-        <div className="absolute inset-0 pointer-events-none">
-          <div
-            className="absolute left-1/2 top-[20px] -translate-x-1/2 w-[700px] h-[700px] bg-grid-black/[0.9] dark:bg-grid-white/[0.05] bg-[length:50px_50px]"
-            style={{
-              maskImage:
-                "radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 60%)",
-              WebkitMaskImage:
-                "radial-gradient(circle, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 60%)",
-            }}
-          />
-          {/**      <div className="flex flex-col justify-center mt-14 items-center w-full">
-            <p className="text-[16px] text-gray-200">Adtask AI works with: </p>
-            <GlowingAdSenseCard />
-          </div> */}
-        </div>
-
-        <div className="flex mt-8 flex-col bg-transparent justify-center items-center w-full relative">
+       
+        <div className="flex mt-6 bp4:mt-[-60px] flex-col bg-transparent justify-center items-center w-full relative">
           {/* Gradient Circle Background */}
           <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-gradient-radial from-[#4D4D4D] to-transparent opacity-40 blur-3xl"></div>
 
@@ -236,7 +219,7 @@ export default function Home() {
             </div>
 
             {/* Second Line */}
-            <p className="text-5xl  bp4:text-3xl bp3:text-xl text-center mt-2 bg-gradient-to-b from-[#B0B0B0] to-[#7D7D7D] bg-clip-text text-transparent font-light leading-tight">
+            <p className="text-5xl  bp4:text-3xl bp3:text-xl text-center mb-[-70px] mt-2 bg-gradient-to-b from-[#B0B0B0] to-[#7D7D7D] bg-clip-text text-transparent font-light leading-tight">
               Une Vente Sereine et Profitable
             </p>
           </div>
@@ -248,7 +231,7 @@ export default function Home() {
           <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[500px] h-[500px] rounded-full bg-gradient-radial from-[#4D4D4D] to-transparent opacity-40 blur-3xl"></div>
 
           {/* Button */}
-          <div className="flex justify-center text-center z-10">
+          <div className="mt-6 flex justify-center text-center z-10">
             <HoverBorderGradient
               containerClassName="rounded-full"
               as="button"
@@ -281,7 +264,7 @@ export default function Home() {
             <Grid
               title={"Consultation & Évaluation"}
               text={
-                "Durant un appel de bienvenue, nous connectons de manière simple et sécurisée vos plateformes (Facebook, Instagram, email de notifications Mubawab/Avito)."
+                "Durant un appel de bienvenue stratégique, nous connectons de manière simple et sécurisée vos plateformes (Facebook, Instagram, email de notifications Mubawab/Avito)."
               }
             >
               <MousePointerClick className="w-20 h-20" />
@@ -289,7 +272,7 @@ export default function Home() {
             <Grid
               title={"Personnalisation du Bot IA"}
               text={
-                "Nous configurons ensemble le message d'accueil et les questions de qualification du chatbot WhatsApp pour qu'il représente parfaitement votre agence."
+                "Nous configurons ensemble le message d'accueil et les questions de qualification du chatbot WhatsApp pour qu'il représente parfaitement le professionnalisme de votre agence."
               }
             >
               <Gauge className="w-20 h-20" />
@@ -297,7 +280,7 @@ export default function Home() {
             <Grid
               title={"Lancement et Formation"}
               text={
-                "Nous activons le système et formons vos équipes en 30 minutes. Vous commencez à recevoir des leads qualifiés le jour même."
+                "Nous activons le système et formons vos équipes en 30 minutes. Vous commencez à recevoir des leads qualifiés le jour même, transformant immédiatement votre processus de vente."
               }
             >
               <TrendingUpIcon className="w-20 h-20" />
@@ -384,12 +367,12 @@ export default function Home() {
           <div className="w-[70%] flex flex-col mt-16 items-center justify-center relative z-10">
             {/* First Line */}
             <p className="text-5xl text-center bp6:text-3xl">
-              Prêt à obtenir le meilleur
+             Ne laissez pas votre prochain gros contrat vous échapper.
             </p>
 
             {/* Second Line */}
-            <p className="text-5xl text-center bp6:text-3xl mt-2 bg-gradient-to-b from-[#B0B0B0] to-[#7D7D7D] bg-clip-text text-transparent leading-tight">
-              ROI ?
+            <p className="text-1xl text-center bp6:text-1xl mt-2 bg-gradient-to-b from-[#B0B0B0] to-[#7D7D7D] bg-clip-text text-transparent leading-tight">
+              Chaque minute d'attente pour répondre à un lead chaud diminue vos chances de manière drastique. Notre système répond en moins de 60 secondes. Voyez-le en action.
             </p>
           </div>
 
@@ -406,7 +389,7 @@ export default function Home() {
                 onHoverStart={() => setIsHovered3(true)}
                 onHoverEnd={() => setIsHovered3(false)}
               >
-                <span className="relative z-10">Demander une Démo</span>
+                <span className="relative z-10">Planifier Un Démo</span>
                 {isHovered3 && (
                   <motion.div
                     className="absolute inset-0 z-0"
@@ -424,7 +407,7 @@ export default function Home() {
           <Footer />
         </div>
 
-        <div className="w-full flex justify-center text-gray-400 text-sm font-light mb-3 items-center">
+        <div className="w-full flex justify-center text-[#ffffff] text-sm font-light mb-3 items-center">
           <p>All right reserved &copy; 2025 MediaTopea</p>
         </div>
       </div>
