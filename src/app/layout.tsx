@@ -10,32 +10,35 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Automatisation pour Agences Immobilières | Boostez vos Leads à Casablanca",
-  description: "Ne perdez plus de leads de Mubawab ou Instagram et Whatsapp. Notre solution automatise la qualification et le suivi pour les agences immobilières. Augmentez vos mandats et vos ventes.",
-  
+  title: "Mediatopea: L'IA qui Transforme vos Leads en Rendez-vous 24/7",
+  description:
+    "Votre agence est trop lente pour répondre ? Notre assistant IA engage chaque lead de Mubawab, WhatsApp & Instagram en moins de 60 secondes. Transformez vos leads froids en rendez-vous chauds et signez plus de mandats.",
+
   openGraph: {
-    title: "Automatisation pour Agences Immobilières | MediaTopea",
-    description: "Gagnez du temps et ne perdez plus jamais un lead. Automatisation 24/7 pour les agences immobilières à Casablanca.",
-    url: 'https://mediatopea.com', 
-    siteName: 'MediaTopea',
+    title: "Mediatopea: L'IA qui Transforme vos Leads en Rendez-vous 24/7",
+    description:
+      "Votre agence est trop lente pour répondre ? Notre assistant IA engage chaque lead de Mubawab, WhatsApp & Instagram en moins de 60 secondes. Transformez vos leads froids en rendez-vous chauds et signez plus de mandats.",
+    url: "https://mediatopea.com",
+    siteName: "MediaTopea",
     images: [
       {
-        url: 'https://mediatopea.com/og-image.png',
+        url: "https://mediatopea.com/og-image.png",
         width: 1200,
         height: 630,
       },
     ],
-    locale: 'fr_FR',
-    type: 'website',
+    locale: "fr_FR",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: "Automatisation pour Agences Immobilières | MediaTopea",
-    description: "Gagnez du temps et ne perdez plus jamais un lead. Automatisation 24/7 pour les agences immobilières à Casablanca.",
-    images: ['https://mediatopea.com/og-image.png'], 
+    card: "summary_large_image",
+    title: "Mediatopea: L'IA qui Transforme vos Leads en Rendez-vous 24/7",
+    description:
+      "Votre agence est trop lente pour répondre ? Notre assistant IA engage chaque lead de Mubawab, WhatsApp & Instagram en moins de 60 secondes. Transformez vos leads froids en rendez-vous chauds et signez plus de mandats.",
+    images: ["https://mediatopea.com/og-image.png"],
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: "/favicon.ico",
   },
 };
 
@@ -45,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className="dark" style={{ colorScheme: 'dark' }}>
+    <html lang="fr" className="dark" style={{ colorScheme: "dark" }}>
       {/* ✅ Moved Clarity Analytics into the body for safer script placement */}
       <body className={`${poppins.className} min-h-screen`}>
         <ClarityAnalytics />
