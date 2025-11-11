@@ -10,14 +10,14 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Mediatopea: L'IA qui Transforme vos Leads en Rendez-vous 24/7",
+  title: "L'IA qui Transforme vos Leads en Rendez-vous 24/7",
   description:
-    "Votre agence est trop lente pour répondre ? Notre assistant IA engage chaque lead de Mubawab, WhatsApp & Instagram en moins de 60 secondes. Transformez vos leads froids en rendez-vous chauds et signez plus de mandats.",
+    "Votre agence est trop lente à répondre aux demandes ? Notre assistant IA engage chaque prospect instantanément, quelle que soit la plateforme. Il s'intègre à n'importe quel type de CRM pour répondre en moins de 60 secondes. Transformez chaque contact en rendez-vous qualifiés et signez plus de mandats !",
 
   openGraph: {
-    title: "Mediatopea: L'IA qui Transforme vos Leads en Rendez-vous 24/7",
+    title: "L'IA qui Transforme vos Leads en Rendez-vous 24/7",
     description:
-      "Votre agence est trop lente pour répondre ? Notre assistant IA engage chaque lead de Mubawab, WhatsApp & Instagram en moins de 60 secondes. Transformez vos leads froids en rendez-vous chauds et signez plus de mandats.",
+      "Votre agence est trop lente à répondre aux demandes ? Notre assistant IA engage chaque prospect instantanément, quelle que soit la plateforme. Il s'intègre à n'importe quel type de CRM pour répondre en moins de 60 secondes. Transformez chaque contact en rendez-vous qualifiés et signez plus de mandats !",
     url: "https://mediatopea.com",
     siteName: "MediaTopea",
     images: [
@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mediatopea: L'IA qui Transforme vos Leads en Rendez-vous 24/7",
+    title: "L'IA qui Transforme vos Leads en Rendez-vous 24/7",
     description:
-      "Votre agence est trop lente pour répondre ? Notre assistant IA engage chaque lead de Mubawab, WhatsApp & Instagram en moins de 60 secondes. Transformez vos leads froids en rendez-vous chauds et signez plus de mandats.",
+      "Votre agence est trop lente à répondre aux demandes ? Notre assistant IA engage chaque prospect instantanément, quelle que soit la plateforme. Il s'intègre à n'importe quel type de CRM pour répondre en moins de 60 secondes. Transformez chaque contact en rendez-vous qualifiés et signez plus de mandats !",
     images: ["https://mediatopea.com/og-image.png"],
   },
   icons: {
